@@ -23,6 +23,8 @@ public class FourInputDemo {
 		System.out.println("Enter 4 Numbers between 30-50 ONLY!!");
 
 		Scanner scanner = new Scanner(System.in);
+		
+		// check for the conditions
 
 		while (scanner.hasNextInt() && arrayPos < 4) {
 			System.out.print("Enter a Number: ");
